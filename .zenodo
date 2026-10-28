@@ -1,0 +1,53 @@
+{
+  "title": "Code and results for \"Deep Reinforcement Learning for Maritime Route Optimization on AIS-ERA5 Cost Maps with Navigability Constraints\"",
+  "upload_type": "software",
+  "version": "2.0.0",
+  "description": "Python code and results for the paper. Six months of NOAA Marine Cadastre AIS data of the Houston Ship Channel (January-June 2024, cargo ships and tankers) are matched with ERA5 wind and wave reanalysis. An LSTM environment predictor (temporal split) is compared with persistence and tested with MC Dropout and on two other regions. A cost map of fuel, risk and time on a 60 x 80 grid with a navigability mask (GLOBE land mask and the AIS channel) is used to train PPO agents in a Gymnasium environment; they are compared with Dijkstra and A* in four scenarios (10 seeds x 1 million steps, 30 evaluation episodes per seed), with an ablation of the cost map and of the weather in the observation and a SAC-Discrete baseline under the same protocol (200,000 steps per seed).",
+  "creators": [
+    {
+      "name": "Danilov, Boris",
+      "affiliation": "Ocean University of China"
+    },
+    {
+      "name": "Dong, Junyu",
+      "affiliation": "Ocean University of China"
+    },
+    {
+      "name": "Said Ben Salah, Amal",
+      "affiliation": "Ocean University of China"
+    },
+    {
+      "name": "Arowosegbe, Paul Opeyemi",
+      "affiliation": "Ocean University of China"
+    },
+    {
+      "name": "Mahmud, Md Akash",
+      "affiliation": "Ocean University of China"
+    }
+  ],
+  "license": "MIT",
+  "keywords": [
+    "maritime route optimization",
+    "deep reinforcement learning",
+    "PPO",
+    "SAC",
+    "AIS",
+    "ERA5",
+    "cost map",
+    "navigability",
+    "LSTM",
+    "Houston Ship Channel"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.24381/cds.adbb2d47",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.7289/V52R3PMS",
+      "relation": "isDerivedFrom",
+      "resource_type": "dataset"
+    }
+  ]
+}
