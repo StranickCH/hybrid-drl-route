@@ -1,0 +1,24 @@
+# data (downloaded or derived, see README)
+ais_raw/
+ais_raw_regions/
+ais_filtered/
+ais_chesapeake/
+ais_newyork/
+ais_mississippi/
+ais_pugetsound/
+ais_merged*/
+era5*/
+results/
+sac_results/
+*.zip
+*.parquet
+*.nc
+*.pt
+*.pkl
+.cdsapirc
+logs/
+__pycache__/
+*.pyc
+.idea/
+.vs/
+.venv/
