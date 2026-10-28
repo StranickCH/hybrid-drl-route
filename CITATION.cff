@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper and this software."
+title: "Code for \"Deep Reinforcement Learning for Maritime Route Optimization on AIS-ERA5 Cost Maps with Navigability Constraints\""
+version: 2.0.0
+repository-code: "https://github.com/StranickCH/hybrid-drl-route"
+license: MIT
+authors:
+  - family-names: Danilov
+    given-names: Boris
+    affiliation: "Ocean University of China"
+    email: danilovboris1991@gmail.com
+  - family-names: Dong
+    given-names: Junyu
+    affiliation: "Ocean University of China"
+  - family-names: Said Ben Salah
+    given-names: Amal
+    affiliation: "Ocean University of China"
+  - family-names: Arowosegbe
+    given-names: Paul Opeyemi
+    affiliation: "Ocean University of China"
+  - family-names: Mahmud
+    given-names: Md Akash
+    affiliation: "Ocean University of China"

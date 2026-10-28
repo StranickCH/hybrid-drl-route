@@ -1,0 +1,17 @@
+numpy>=1.24
+pandas>=2.0
+pyarrow>=12.0         # AIS parquet files
+scipy>=1.10
+scikit-learn>=1.3
+joblib>=1.3
+matplotlib>=3.7
+torch>=2.0            # LSTM, PPO and SAC; the paper used PyTorch 2.6.0 with CUDA 12.4
+gymnasium>=1.0        # the paper used 1.2.3
+stable-baselines3>=2.0  # PPO; the paper used 2.8.0
+xarray>=2023.1        # ERA5 NetCDF files
+netCDF4>=1.6
+dask>=2023.1          # xarray.open_mfdataset when the monthly ERA5 files are combined
+cdsapi>=0.7           # ERA5 from the Copernicus CDS
+urllib3>=1.26
+tqdm>=4.65
+global-land-mask>=1.0  # only for make_navigable_mask.py (navigable_mask.npy is in the repository)
